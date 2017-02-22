@@ -20,7 +20,7 @@ button.onclick = function () {
         }
     };
     
-    //Mkae the request
+    //Make the request
     request.Open('GET', 'http://malathiyogesh.imad.hasura-app.io/counter');
     request.send(null);
 };
