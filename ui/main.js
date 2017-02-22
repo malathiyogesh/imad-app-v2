@@ -23,7 +23,14 @@ button.onclick = function () {
     //Mkae the request
     request.Open('GET', 'http://malathiyogesh.imad.hasura-app.io/counter');
     request.send(null);
-  
+};
+
+//Submit name
+var nameInput = document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElementById('submit_btn');
+submit.onclick = function () {
+    //Make a request to the  server and send the name
     
-    
+    //Capture the list of names and render it as  a list
 };
