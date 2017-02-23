@@ -14,7 +14,7 @@ app.get('/counter', function(req, res) {
     counter = counter + 1;
     res.send(counter.toString());
 });
-app.get('/submit-name/:name', function(req, res){
+app.get('/submit-name/', function(req, res){
     //Get the name from the request
     //var name = req.params.name;
     var name = req.query.name;
