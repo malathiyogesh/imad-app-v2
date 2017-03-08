@@ -41,7 +41,7 @@ app.get('/article-two', function (req, res) {
 });
 
 var pool = new Pool(config);
-appa.get('/test-db', function(req, res) {
+app.get('/test-db', function(req, res) {
     //make  a select request
     pool.query('SELECT * FROM user', function(err, result){
         if(err){
